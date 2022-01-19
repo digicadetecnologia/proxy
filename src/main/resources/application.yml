@@ -1,0 +1,22 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /proxy
+
+geoserver:
+  url: https://geosite-hml.local.srv.br/geocodificacao-proxy
+
+access:
+  control:
+    allow:
+     origin: '*'
+
+demo:
+ auth:
+  server:
+    url: https://geosite-hml.local.srv.br/geocodificacao-api
+    acces_token_url: /api/v1/oauth/access-token
+    refresh_token_url: /api/v1/oauth/refresh
+    api_uri: /api/v1
+  client_id: CHAVE_CLIENT_ID_GERADA_VIA_GEOCODER
+  client_secret: CHAVE_CLIENT_SECRET_GERADA_VIA_GEOCODER
