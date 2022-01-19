@@ -121,12 +121,11 @@ this.mapa = new Map({
 		@Headers("Content-Type: application/x-www-form-urlencoded")
 		@RequestLine("POST {url}")
 		@Body(value = "client_id={clientKey}&client_secret={clientSecret}")
-		TokenResponseDTO requestToken
-							(
-								@Param("url") String url, 
-								@Param("clientKey") String 	clientKey, 
-								@Param("clientSecret") String clientSecret
-							);
+		TokenResponseDTO requestToken (
+					@Param("url") String url, 
+					@Param("clientKey") String 	clientKey, 
+					@Param("clientSecret") String clientSecret
+				);
 		
 		...
 		
