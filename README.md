@@ -16,16 +16,16 @@ https://dicasdejava.com.br/como-instalar-o-maven-no-windows/
 ### Configuração na aplicação application.yml
 
 ```
-	Necessário alterar o arquivo 
-		- src/main/resources/application.yml
-		
-		adicionando os valores das variaveis client_id e client_secret,  
-		valores esse fornecido pelo ponto foco do geocoder na OI
-	
-	* **AS CHAVES PARA SOLICITAR O TOKEN DEVERÁ SER SOLICITADO A OI**
-											
-	client_id: CHAVE_CLIENT_ID_GERADA_PELA_OI
-	client_secret: CHAVE_CLIENT_SECRET_GERADA_PELA_OI
+* Necessário alterar o arquivo 
+- src/main/resources/application.yml
+
+Adicionar os valores das variaveis client_id e client_secret,  
+valores esse fornecido pelo ponto foco do geocoder na OI
+
+***AS CHAVES PARA SOLICITAR O TOKEN DEVERÁ SER SOLICITADO A OI***
+
+client_id: CHAVE_CLIENT_ID_GERADA_PELA_OI
+client_secret: CHAVE_CLIENT_SECRET_GERADA_PELA_OI
 
 ```
 
