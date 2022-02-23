@@ -15,7 +15,7 @@ https://dicasdejava.com.br/como-instalar-o-maven-no-windows/
 
 ### Configuração na aplicação application.yml
 
-````
+```
 	Necessário alterar o arquivo 
 		- src/main/resources/application.yml
 		
